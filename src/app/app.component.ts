@@ -193,6 +193,7 @@ datas: any = [
  value:any
  a:any
 x = this.datas.forEach((item:any) => {
+  debugger
   let key = item.data.totals;
   Object.values(key).forEach((obj:any) => {
     Object.values(obj).forEach((sum:any) => {

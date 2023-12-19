@@ -1,20 +1,20 @@
 export const actionOptions = {
     eng: {
       User: {
-        eng: [{_id: 'Create', value : 'Create'}, {id: 'Update', value: 'Update'}, {id: 'Delete', value: 'Delete'}, {id: 'Enable', value: 'Enable'}, {id: 'Disable', value: 'Disable'}],
-        jp: [{_id: 'Create', value : '作成'}, {id: 'Update', value: '更新'}, {id: 'Delete', value: '削除'}, {id: 'Enable', value: '有効にする'}, {id: 'Disable', value: '無効'}],
-        cn: [{_id: 'Create', value : '创建'}, {id: 'Update', value: '更新'}, {id: 'Delete', value: '删除'}, {id: 'Enable', value: '启用'}, {id: 'Disable', value: '禁用'}]   
+        eng: [{_id: 'Create', value : 'Create'}, {_id: 'Update', value: 'Update'}, {_id: 'Delete', value: 'Delete'}, {_id: 'Enable', value: 'Enable'}, {_id: 'Disable', value: 'Disable'}],
+        jp: [{_id: 'Create', value : '作成'}, {_id: 'Update', value: '更新'}, {_id: 'Delete', value: '削除'}, {_id: 'Enable', value: '有効にする'}, {_id: 'Disable', value: '無効'}],
+        cn: [{_id: 'Create', value : '创建'}, {_id: 'Update', value: '更新'}, {_id: 'Delete', value: '删除'}, {_id: 'Enable', value: '启用'}, {_id: 'Disable', value: '禁用'}]   
       },
   
       Customer: {
         eng: [{_id: 'Create', value : 'Create'}, {_id: 'Update', value: 'Update'}],
-        jp: [{_id: 'Create', value : '作成'}, {id: 'Update', value: '更新'}], 
-        cn: [{_id: 'Create', value : '创建'}, {id: 'Update', value: '更新'}] 
+        jp: [{_id: 'Create', value : '作成'}, {_id: 'Update', value: '更新'}], 
+        cn: [{_id: 'Create', value : '创建'}, {_id: 'Update', value: '更新'}] 
       },
       Site: {
-        eng: [{_id: 'Create', value : 'Create'}, {id: 'Update', value: 'Update'}, {id: 'Delete', value: 'Delete'}, {id: 'Enable', value: 'Enable'}, {id: 'Disable', value: 'Disable'},{_id: 'Local Sync', value: 'Local Sync'}],
-        jp: [{_id: 'Create', value : '作成'}, {id: 'Update', value: '更新'}, {id: 'Delete', value: '削除'}, {id: 'Enable', value: '有効にする'}, {id: 'Disable', value: '無効'},{_id: 'Local Sync', value: 'ローカルシンク'}],
-        cn: [{_id: 'Create', value : '创建'}, {id: 'Update', value: '更新'}, {id: 'Delete', value: '删除'}, {id: 'Enable', value: '启用'}, {id: 'Disable', value: '禁用'},{_id: 'Local Sync', value: '本地同步'}],
+        eng: [{_id: 'Create', value : 'Create'}, {_id: 'Update', value: 'Update'}, {_id: 'Delete', value: 'Delete'}, {_id: 'Enable', value: 'Enable'}, {_id: 'Disable', value: 'Disable'},{_id: 'Local Sync', value: 'Local Sync'}],
+        jp: [{_id: 'Create', value : '作成'}, {_id: 'Update', value: '更新'}, {_id: 'Delete', value: '削除'}, {_id: 'Enable', value: '有効にする'}, {_id: 'Disable', value: '無効'},{_id: 'Local Sync', value: 'ローカルシンク'}],
+        cn: [{_id: 'Create', value : '创建'}, {_id: 'Update', value: '更新'}, {_id: 'Delete', value: '删除'}, {_id: 'Enable', value: '启用'}, {_id: 'Disable', value: '禁用'},{_id: 'Local Sync', value: '本地同步'}],
     },
     Login: {
         eng:[{_id: 'Login', value : 'Login'}],
@@ -22,9 +22,9 @@ export const actionOptions = {
         cn:[{_id: 'Login', value : '登录'}]
     },
       Filter: {
-        eng:[{_id: 'Create', value : 'Create'}, {id: 'Update', value: 'Update'}, {id: 'Delete', value: 'Delete'}], 
-        jp:[{_id: 'Create', value : '作成'}, {id: 'Update', value: '更新'}, {id: 'Delete', value: '削除'}],
-        cn:[{_id: 'Create', value : '创建'}, {id: 'Update', value: '更新'}, {id: 'Delete', value: '删除'}] 
+        eng:[{_id: 'Create', value : 'Create'}, {_id: 'Update', value: 'Update'}, {_id: 'Delete', value: 'Delete'}], 
+        jp:[{_id: 'Create', value : '作成'}, {_id: 'Update', value: '更新'}, {_id: 'Delete', value: '削除'}],
+        cn:[{_id: 'Create', value : '创建'}, {_id: 'Update', value: '更新'}, {_id: 'Delete', value: '删除'}] 
     },
       Logout: {
         eng:[{_id: 'Logout', value : 'Logout'}],
@@ -32,44 +32,44 @@ export const actionOptions = {
         cn:[{_id: 'Logout', value : '登出'}]
       },
       Country: {
-        eng:[{_id: 'Create', value : 'Create'}, {id: 'Update', value: 'Update'}],
-        jp:[{_id: 'Create', value : '作成'}, {id: 'Update', value: '更新'}],
-        cn:[{_id: 'Create', value : '创建'}, {id: 'Update', value: '更新'}]
+        eng:[{_id: 'Create', value : 'Create'}, {_id: 'Update', value: 'Update'}],
+        jp:[{_id: 'Create', value : '作成'}, {_id: 'Update', value: '更新'}],
+        cn:[{_id: 'Create', value : '创建'}, {_id: 'Update', value: '更新'}]
     },
       EmailTemplate: {
-        eng: [{_id: 'Create', value : 'Create'}, {id: 'Update', value: 'Update'}, {id: 'Delete', value: 'Delete'}, {id: 'Enable', value: 'Enable'}, {id: 'Disable', value: 'Disable'}],
-        jp: [{_id: 'Create', value : '作成'}, {id: 'Update', value: '更新'}, {id: 'Delete', value: '削除'}, {id: 'Enable', value: '有効にする'}, {id: 'Disable', value: '無効'}],
-        cn: [{_id: 'Create', value : '创建'}, {id: 'Update', value: '更新'}, {id: 'Delete', value: '删除'}, {id: 'Enable', value: '启用'}, {id: 'Disable', value: '禁用'}]
+        eng: [{_id: 'Create', value : 'Create'}, {_id: 'Update', value: 'Update'}, {_id: 'Delete', value: 'Delete'}, {_id: 'Enable', value: 'Enable'}, {_id: 'Disable', value: 'Disable'}],
+        jp: [{_id: 'Create', value : '作成'}, {_id: 'Update', value: '更新'}, {_id: 'Delete', value: '削除'}, {_id: 'Enable', value: '有効にする'}, {_id: 'Disable', value: '無効'}],
+        cn: [{_id: 'Create', value : '创建'}, {_id: 'Update', value: '更新'}, {_id: 'Delete', value: '删除'}, {_id: 'Enable', value: '启用'}, {_id: 'Disable', value: '禁用'}]
       },
       NotificationRule: {
-        eng: [{_id: 'Create', value : 'Create'}, {id: 'Update', value: 'Update'}, {id: 'Delete', value: 'Delete'}, {id: 'Enable', value: 'Enable'}, {id: 'Disable', value: 'Disable'}],
-        jp: [{_id: 'Create', value : '作成'}, {id: 'Update', value: '更新'}, {id: 'Delete', value: '削除'}, {id: 'Enable', value: '有効にする'}, {id: 'Disable', value: '無効'}],
-        cn: [{_id: 'Create', value : '创建'}, {id: 'Update', value: '更新'}, {id: 'Delete', value: '删除'}, {id: 'Enable', value: '启用'}, {id: 'Disable', value: '禁用'}]
+        eng: [{_id: 'Create', value : 'Create'}, {_id: 'Update', value: 'Update'}, {_id: 'Delete', value: 'Delete'}, {_id: 'Enable', value: 'Enable'}, {_id: 'Disable', value: 'Disable'}],
+        jp: [{_id: 'Create', value : '作成'}, {_id: 'Update', value: '更新'}, {_id: 'Delete', value: '削除'}, {_id: 'Enable', value: '有効にする'}, {_id: 'Disable', value: '無効'}],
+        cn: [{_id: 'Create', value : '创建'}, {_id: 'Update', value: '更新'}, {_id: 'Delete', value: '删除'}, {_id: 'Enable', value: '启用'}, {_id: 'Disable', value: '禁用'}]
       },
       AlarmGroups: {
-        eng:[{id: 'Delete', value: 'Delete'},{id: 'Update', value: 'Update'}],
-        jp:[{id: 'Delete', value: '削除'},{id: 'Update', value: '更新'}],
-        cn:[{id: 'Delete', value: '删除'},{id: 'Update', value: '更新'}],
+        eng:[{_id: 'Delete', value: 'Delete'},{_id: 'Update', value: 'Update'}],
+        jp:[{_id: 'Delete', value: '削除'},{_id: 'Update', value: '更新'}],
+        cn:[{_id: 'Delete', value: '删除'},{_id: 'Update', value: '更新'}],
       },
       Alarm: { 
-        eng:[{id: 'Acknowledge', value: 'Acknowledge'}],
-        jp:[{id: 'Acknowledge', value: '認める'}],
-        cn:[{id: 'Acknowledge', value: '确认'}]
+        eng:[{_id: 'Acknowledge', value: 'Acknowledge'}],
+        jp:[{_id: 'Acknowledge', value: '認める'}],
+        cn:[{_id: 'Acknowledge', value: '确认'}]
      },
       ChangePassword: { 
-        eng:[{id: 'Update', value: 'Update'}],
-        jp:[{id: 'Update', value: '更新'}], 
-        cn:[{id: 'Update', value: '更新'}], 
+        eng:[{_id: 'Update', value: 'Update'}],
+        jp:[{_id: 'Update', value: '更新'}], 
+        cn:[{_id: 'Update', value: '更新'}], 
     },
       Import: { 
-        eng:[{id: 'Update', value: 'Update'}],
-        jp:[{id: 'Update', value: '更新'}], 
-        cn:[{id: 'Update', value: '更新'}],  
+        eng:[{_id: 'Update', value: 'Update'}],
+        jp:[{_id: 'Update', value: '更新'}], 
+        cn:[{_id: 'Update', value: '更新'}],  
     },
     Export: { 
-        eng:[{id: 'Export', value: 'Export'}],
-        jp:[{id: 'Export', value: '輸出'}], 
-        cn:[{id: 'Export', value: '出口'}],  
+        eng:[{_id: 'Export', value: 'Export'}],
+        jp:[{_id: 'Export', value: '輸出'}], 
+        cn:[{_id: 'Export', value: '出口'}],  
     },
   
     jp: [
