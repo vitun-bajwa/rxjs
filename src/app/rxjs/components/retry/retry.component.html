@@ -1,0 +1,22 @@
+<div class="my-3">
+    <h2>Retry, RetryWhen, Scan and Delay</h2>
+    <br>
+    <button class="btn btn-primary" (click)="fetchDeatils()" type="button">
+        <span *ngIf="fetching" class="spinner-border spinner-border-sm" role="status" aria-hidden="true">
+        </span>
+        {{fetching ? 'Fetching...' : 'Fetch Details'}}
+    </button>
+</div>
+<br>
+<br>
+<p>
+    Status: <strong [ngClass]="{
+        'text-success' : status === 'Data Fetched',
+        'text-danger' : status === 'Problem Fectching Data'
+    }"
+    >{{status}}</strong>
+    <span *ngIf="fetching" class="spinner-grow spinner-grow-sm text-warning" role="status" aria-hidden="true">
+    <span class="sr-only">loading...</span>
+    </span>
+
+</p>

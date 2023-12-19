@@ -7,6 +7,8 @@ import { TakeComponent } from './components/take/take.component';
 import { ConcatComponent } from './components/concat/concat.component';
 import { MergeMapComponent } from './components/merge-map/merge-map.component';
 import { ConcatMapComponent } from './components/concat-map/concat-map.component';
+import { RetryComponent } from './components/retry/retry.component';
+import { DebounceTimeComponent } from './components/debounce-time/debounce-time.component';
 
 const routes: Routes = [
   {
@@ -26,7 +28,13 @@ const routes: Routes = [
   },
   {
     path: 'concatmap',component:ConcatMapComponent
-  }
+  },
+  {
+    path: 'retry',component:RetryComponent
+  },
+  {
+    path: 'de',component:DebounceTimeComponent
+  },
 ];
 
 @NgModule({

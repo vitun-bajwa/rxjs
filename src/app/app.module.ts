@@ -8,6 +8,8 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { ChildComponent } from './child/child.component';
 import { Child1Component } from './child1/child1.component';
 import { CalculatorComponent } from './calculator/calculator.component';
+import { LoadingBarModule } from '@ngx-loading-bar/core';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +21,8 @@ import { CalculatorComponent } from './calculator/calculator.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    LoadingBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
